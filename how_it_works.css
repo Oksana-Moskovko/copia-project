@@ -83,7 +83,7 @@ li::before {
     width: 42px;
     height: 42px;
     text-align: center;
-    line-height: 42px;
+    align-content: center;
 
     border: 5px solid #d4bfc4;
 
