@@ -1,9 +1,8 @@
 body {
     font-family: "Inter Tight", sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    background-color: #7a3145;
+    /* line-height: 1.5; */
 }
 
 p,
@@ -52,8 +51,13 @@ button {
 
 
 /* code */
+.section-works {
+    letter-spacing: 0.02em;
+}
+
 .section-picture {
     background-color: #7a3145;
+    max-height: 452px;
     padding: 40px 20px;
     display: flex;
     justify-content: center; 
@@ -81,7 +85,7 @@ button {
 }
 
 .cotainer-instruction {
-    max-width: 300px;
+    max-width: 320px;
 }
 @media screen and (min-width: 375px) {
     .cotainer-instruction {
@@ -170,6 +174,8 @@ li::before {
 /* table */
 @media screen and (min-width: 768px) {
     .section-picture { 
+        min-width: 640px;
+        min-height: 640px;
         padding: 100px 64px;
     }
 
@@ -211,6 +217,9 @@ li::before {
 @media screen and (min-width: 1280px) {
     .section-picture { 
         padding: 100px;
+
+        min-width: 440px;
+        min-height: 560px;
     } 
 
     .section-works {
