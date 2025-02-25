@@ -50,6 +50,87 @@ button {
 }
 
 /* пробна цекція*/
+
+/* Загальний контейнер для всіх секцій */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Максимальна ширина для великих екранів */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Стилі для секції з текстом */
+.discount-section {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    box-sizing: border-box;
+}
+
+/* Заголовок з зеленим фоном */
+.discount-title {
+    background: #5A6B3D;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 8px; /* Заокруглення кутів */
+}
+
+/* Основний текст */
+.discount-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Стилі для телефону */
+@media (max-width: 600px) {
+    .discount-section {
+        text-align: left;
+        padding: 10px;
+    }
+    .discount-title {
+        font-size: 18px;
+        display: block;
+    }
+    .discount-text {
+        font-size: 16px;
+    }
+}
+
+/* Стилі для планшета */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .discount-section {
+        text-align: center;
+    }
+    .discount-title {
+        font-size: 22px;
+    }
+    .discount-text {
+        font-size: 18px;
+    }
+}
+
+/* Стилі для комп’ютера */
+@media (min-width: 1025px) {
+    .discount-section {
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .discount-title {
+        font-size: 24px;
+    }
+    .discount-text {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+}
+
 /* Загальний контейнер для всіх секцій */
 .con {
     width: 100%;
